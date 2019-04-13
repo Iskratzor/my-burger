@@ -1,0 +1,17 @@
+.Menu {
+    cursor: pointer;
+}
+
+.Menu div {
+    background-color: white;
+    display: block;
+    margin: 5px;
+    height: 4px;
+    width: 40px;
+}
+
+@media (min-width: 500px) {
+    .Menu {
+        display: none;
+    }
+}
